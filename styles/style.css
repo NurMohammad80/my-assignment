@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* heading or banner styles */
+.heading-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px;
+    height: 300px;
+}
+
+.heading-title {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+}
+
+.heading-part {
+    padding-right: 150 70px;
+}
+
+.heading-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 9px;
+    font-weight: 400;
+    padding: 25px 0;
+}
+
+.shop-btn {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+}
+
+.heading-flower-img {
+    width: 300px;
+    padding-top: 21px;
+
+}
+
+/* featured flower styles */
+
+.featured-flower-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 50px 300px;
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.featured-flower {
+    height: 250px;
+    width: 200px;
+}
+
+.feature-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    width: 37%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.featured-flower-img {
+    width: 120px;
+    padding: 84px 0 0 40px;
+}
+
+.img-two {
+    width: 150px;
+    padding-top: 80px;
+    padding-left: 38px;
+}
+
+.img-three {
+    width: 120px;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+
+.one {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.two {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.three {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.flower-item{
+    text-align:center;
+    padding: 15px;
+
+}
+.flower-item-two{
+    text-align: center;
+    padding-top: 35px;
+}
