@@ -207,6 +207,7 @@ span {
     font-family: Lato;
     font-size: 12px;
     padding-bottom: 30px;
+    padding-top: 8px;
 }
 
 
@@ -238,6 +239,61 @@ input[type=email] {
 
 .input {
     margin-left: 220px;
+}
+
+/* Extra section styles  */
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 80px;
+    margin-bottom: 30px;
+
+}
+
+.service-icon {
+    width: 70px;
+    margin-left: 320px;
+}
+
+.services-title {
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.about-us{
+    margin-bottom: 53px;
+}
+
+.about-icon {
+    width: 80px;
+    margin-left: 155px;
+}
+
+ul>li {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    /* list-style: none; */
+    width: 75%;
+    margin: auto;
+    padding: 10px 0;
+
+}
+.learn-btn{
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+.about-btn{
+    margin-top: 10px;
+    margin-left: 141px;
 }
 
 /* footer styles  */
