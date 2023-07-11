@@ -177,7 +177,7 @@ span {
     padding: 100px 0;
 }
 
-/* Instagram styles */
+/* Instagram styles,   100% webpage size! */
 
 .insta-desc {
     color: rgba(39, 39, 39, 0.60);
@@ -223,8 +223,9 @@ span {
     margin-left: 137px;
     margin-top: 70px;
     margin-bottom: 70px;
-    
+
 }
+
 input[type=email] {
     padding: 15px 0;
     padding-right: 100px;
@@ -234,6 +235,37 @@ input[type=email] {
     border: none;
     border-radius: 8px;
 }
-.input{
+
+.input {
     margin-left: 220px;
+}
+
+/* footer styles  */
+
+.footer-section {
+    background-color: #111010;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+}
+
+.footer-title {
+
+    font-family: Lato;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 12px;
+    width: 70%;
+    margin: auto;
+    padding: 15px 0;
 }
