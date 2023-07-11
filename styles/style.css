@@ -157,7 +157,7 @@
     font-size: 28px;
 }
 
-span{
+span {
     color: rgba(229, 84, 115, 1);
 }
 
@@ -177,9 +177,9 @@ span{
     padding: 100px 0;
 }
 
-        /* Instagram styles */
+/* Instagram styles */
 
-.insta-desc{
+.insta-desc {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -189,13 +189,51 @@ span{
     padding-top: 20px;
 }
 
-.insta-img-box{
+.insta-img-box {
     margin-left: 130px;
 }
 
 
-.insta-img{
+.insta-img {
     width: 240px;
     padding: 20px 6px;
 }
 
+/* Email styles */
+
+.email-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+
+
+.email-box {
+    background-image: url("/styles/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+    margin-left: 137px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+input[type=email] {
+    padding: 15px 0;
+    padding-right: 100px;
+    padding-left: 10px;
+    width: 50%;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+}
+.input{
+    margin-left: 220px;
+}
